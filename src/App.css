@@ -1,0 +1,14 @@
+.app-wrapper {
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-wrapper {
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 100%;
+    padding-top: 20px;
+}
+
