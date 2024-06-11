@@ -43,6 +43,7 @@ import MaintainerTickets from "./Maintainer/MaintainerTickets/MaintainerTickets"
 import MaintainerRequest from "./Maintainer/MaintainerRequest/MaintainerRequest";
 import Maintainerprofile from "./Maintainer/Maintainerprofile/Maintainerprofile";
 import MaintainerChangepassword from "./Maintainer/Maintainerprofile/MaintainerChangepassword";
+import Owner_register from "./User/Owner_register";
 
 
 
@@ -55,6 +56,7 @@ function MyComponent() {
 {/* user routing */}
 <Route path="/" element={<Login/>}></Route>
 <Route path="/register" element={<Register/>}></Route>
+<Route path="/owner_register" element={<Owner_register/>}></Route>
 
 {/* admin routing */}
 <Route path="/admin" element={<Protected Component={Admin_Routes}/>}>
