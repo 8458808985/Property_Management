@@ -167,7 +167,10 @@ const Login = () => {
                     <hr className="mt-3 mb-2 border-secondary-subtle" />
                     <div className="d-flex gap-2 gap-md-2 flex-column flex-md-row justify-content-md-start">
                       <span className="link-secondary text-decoration-none">
-                       Don't Have a account  <Link to="/register">Register</Link>
+                       Don't Have a account  <Link to="/register">Maintainer Register</Link>
+                        </span>
+                        <span className="link-secondary text-decoration-none">
+                     &  <Link to="/owner_register">Owner Register</Link>
                         </span>
                     </div>
                   </div>
