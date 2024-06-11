@@ -5,7 +5,7 @@ import Adminmaintainerslice from '../Features/Adminmaintainerslice'
 export const store = configureStore({
   reducer: {
     property:PropertySlice,
-   Adminowner:Adminownerslice,
-   Adminmaintainer:Adminmaintainerslice,
+     Adminowner:Adminownerslice,
+     Adminmaintainer:Adminmaintainerslice,
   },
 })

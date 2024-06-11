@@ -40,8 +40,6 @@ const Adminownerslice = createSlice({
     error: null,
   },
 
- 
-
   extraReducers: (builder) => {
     builder
       .addCase(ShowOwner.pending, (state) => {
